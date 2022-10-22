@@ -6,15 +6,14 @@ import theme from '../theme';
 const styles = StyleSheet.create({
 	container: {
 		paddingTop: Constants.statusBarHeight,
-		backgroundColor: theme.color.colorPrimary,
+		backgroundColor: theme.color.colorSecondary,
 		height: 50,
 		justifyContent: 'center',
-		// ...
 	},
 	textColor: {
-		color: theme.color.textColorSecondary
+		color: 'white',
+		fontWeight: theme.fontWeights.bold
 	}
-	// ...
 });
 
 const AppBar = () => {
