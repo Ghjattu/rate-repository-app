@@ -90,6 +90,7 @@ const styles = {
 		borderRadius: 5,
 	},
 	buttonText: {
+		fontFamily: theme.fonts.main,
 		color: 'white',
 		fontWeight: theme.fontWeights.bold,
 		padding: 15,
